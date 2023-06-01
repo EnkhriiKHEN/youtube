@@ -178,14 +178,9 @@ button {
   display: flex;
   padding-top: 6px;
   align-items: center;
-  padding: 10px;
-}
-.nav-link a {
-  display: flex;
-  align-items: center;
+  font-size: 14px;
 }
 .nav-link a span {
-  margin-left: 7px;
 }
 .sidebarIcon {
   margin-left: 8px;

@@ -184,8 +184,7 @@ button {
   display: flex;
   align-items: center;
 }
-.nav-link a span {
-  margin-left: 7px;
+.nav-link a .nav-link a span {
 }
 .sidebarIcon {
   margin-left: 8px;

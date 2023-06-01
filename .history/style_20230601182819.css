@@ -95,7 +95,7 @@ z-index: 10;
   border: 1px solid grey;
 }
 .material-symbols-outlined {
-  font-size: 18px !important;
+  font-size: 14px !important;
 }
 .formContainer {
   display: flex;
@@ -178,14 +178,9 @@ button {
   display: flex;
   padding-top: 6px;
   align-items: center;
-  padding: 10px;
-}
-.nav-link a {
-  display: flex;
-  align-items: center;
 }
 .nav-link a span {
-  margin-left: 7px;
+  font-size: 14px;
 }
 .sidebarIcon {
   margin-left: 8px;
