@@ -1,0 +1,250 @@
+body {
+    width: 100%;
+    height: 100vh;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+    /* padding: 6px; */
+    align-items: center;
+    flex-direction: row;
+  }
+  nav{
+padding: 10px 2px;
+justify-content: space-between;
+box-shadow: 0 0 10px; 
+background: white;
+position: sticky;
+top:0;
+z-index: 10;
+}
+.nav-link a img{
+  width: 20px;
+  margin-right: 20px;
+}
+.nav-link a img{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+.nav-link a :first-child{
+  color: red;
+}
+.left hr{
+  border: 0;
+  width: 85%;
+  height: 3px;
+  background: #ccc;
+
+}
+.subcrabed-list h3{
+font-size: 13px;
+margin: 20px 0;
+color: #5a5a5a;
+}
+.subcrabed-list a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  width: fit-content;
+  flex-wrap: wrap;
+}
+.subcrabed-list a img{
+  width: 25px;
+  border-radius: 50%;
+  margin: 20;
+}
+.small-
+  .icon {
+    height: 30px;
+  
+    /* background-color: blue; */
+    display: flex;
+    margin-left: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .youtube {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .youtubeLogo {
+    width: 50px;
+  }
+  .searchContainer {
+    display: flex;
+    border: 1px solid grey;
+  }
+  .material-symbols-outlined {
+    font-size: 14px !important;
+  }
+  .formContainer {
+    display: flex;
+    align-items: center;
+  }
+  .mic {
+    margin-left: 7px;
+  }
+  .mic:hover {
+    /* color: red; */
+    cursor: pointer;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 50%;
+  }
+  input {
+    border: none;
+    width: 400px;
+    padding: 4px;
+  }
+  .searchContainer input:focus {
+    outline: none;
+  }
+  button {
+    border: none;
+  }
+  .rightIcon {
+    display: flex;
+    margin-right: 20x;
+  }
+  .search {
+    /* height: 30px; */
+    /* width: 30%; */
+    background-color: #0f0f0f;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border: 1px solid grey;
+  }
+  
+  /* .magnify {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .magnify1 {
+    color: white;
+    margin-left: 10px;
+  }
+  .searhMagnify {
+    display: flex;
+    flex-direction: row;
+  }
+  .acc {
+    height: 30px;
+    width: 10%;
+    background-color: aquamarine;
+  } */
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+  .center {
+    width: 100%;
+    background-color: white;
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 16%;
+    justify-content: center;
+    background-color: white;
+  }
+  .button {
+    /* height: 40px; */
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; Ð´ÑÐ»Ð³ÑÑ†ÑÐ½Ð´ Ñ†ÑÐ³Ñ†Ñ‚ÑÐ¹ Ñ…Ð°Ñ€ÑƒÑƒÐ»Ð½Ð° */
+  }
+  .box1 {
+    /* height: 100%;
+    width: 100%; */
+    background-color: black;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 7px;
+    color: white;
+  }
+  .nav-link {
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    padding-top: 6px;
+    align-items: center;
+  }
+  .sidebarIcon {
+    margin-left: 8px;
+  }
+  .nav-link:hover {
+    cursor: pointer;
+    background-color: rgb(155, 103, 103);
+    border-radius: 6px;
+  }
+  .content
+  {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,(minmax(250px,1fr)));
+    grid: column gap 16px;
+    grid-row-gap: 30px ;
+    margin-top: 15px;
+  }
+  .cart 
+
+  {
+    display: flex;
+    flex-direction: column;
+    ;width: 450px;
+    height: 250px;
+    background-color: pink;
+  }
+  .cart .thumbnail{
+    width:100%;
+    border-radius: 5%;
+  }
+.cart .cartdiscription{
+  align-items:flex-end;
+  margin-top: 10px;
+}
+
+.hello{
+  color: #5a5a5a;
+  font-size: 18px;
+}
+.hello  {
+  align-items: flex-start;
+  margin-top: 7px;
+}
+.hello{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
